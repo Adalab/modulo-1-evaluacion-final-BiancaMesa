@@ -1,1 +1,11 @@
+.header {
+    width: 100%; 
+    min-width: 320px; 
+    background-color: lightblue;
 
+    &__burger {
+        width: 36.8px;
+        background-color: $color-main;
+        padding: 10px 10px 10px 10px; 
+    }
+}
