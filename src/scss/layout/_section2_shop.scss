@@ -1,4 +1,48 @@
 .section2 {
     width: 100%;
     min-width: 320px;
+    height: 100vh;
+    padding: 34px 7px 0px 13px; 
+
+    &__container1 {
+        &--item1 {
+            font-family: $font_main;
+            font-size: 14px;
+            color: $color_main;
+            line-height: 30px;
+        }
+
+        &--item2 {
+            font-family: $font_title;
+            font-size: 22px;
+            color: black;
+            line-height: 30px;
+            margin-bottom: 10px;
+        }
+
+        &--item3 {
+            font-family: $font_main;
+            font-size: 15px;
+            color: $color_bg_footer;
+            line-height: 30px;
+        }
+
+    }
+
+    &__container2 {
+        font-family: $font_main;
+        font-size: 20px;
+        width: 160px;
+        height: 45px; 
+        border-radius: 22.5px;
+        border: 2px solid $color_main;
+        background-color: white;
+        margin-top: 42px;
+        
+        &--text {
+            color: $color_main;
+            text-decoration: none;
+       
+        }
+    }
 }
