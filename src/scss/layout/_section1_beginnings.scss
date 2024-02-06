@@ -6,7 +6,6 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
-    background-color: rgb(250, 233, 213); //quitar***
     color: white; 
     display: flex;
     flex-direction: column;
@@ -35,15 +34,16 @@
 }
 
 .circle {
-    color: $font-main;
-    background-color: rgb(255, 255, 255);
-    width: 26px;
-    height: 26px; 
-    border-radius: 80px;
+    //color: $font-main;
+    //background-color: #ffffff;
+    width: 2px;
+    height: 2px; 
+    border-radius: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: 0px solid rgb(255, 255, 255);
    
 
     &__arrow {
