@@ -14,5 +14,7 @@
         padding: 10px 10px 10px 10px; 
         margin: 0 0 -4px 0; 
         opacity: none;
+        //Al poner esto todo el espacio que había al lado del menu de hamburguesa correspondiente al header ha desaparecido 
+        position: fixed;
     }
 }
