@@ -12,29 +12,45 @@
 }
 
 .nav1 {
+   //border: 1px solid white;
+   //margin-bottom: 30px;
+
     &__item, a {
         color: white;
         text-decoration: none;
         list-style: none;
         text-align: center;
-        background-color: rgb(237, 233, 214);
+        margin: 10px 0 10px 0;
     }
 }
 
 .nav2 {
+    //border: 1px solid white;
+    margin: 28px 0 28px 0; 
+   
     &__item, a {
         color: white;
         text-decoration: none;
         list-style: none;
         text-align: center;
-        background-color: rgb(237, 226, 214);
+        margin: 10px 0 10px 0;
+        
     }
 }
 
-.last_box {
+.copy_box {
+    //border: 1px solid white;
     color: white;
     text-decoration: none;
-    //background-color:aliceblue;
+    font-size: 14px;
+
+    p {
+        margin: 10px 0 10px 0;
+    }
+
+    &__heart {
+        color: $color_main;
+    }
 }
  
 
