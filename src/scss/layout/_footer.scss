@@ -1,4 +1,40 @@
 .footer {
     width: 100%;
     min-width: 320px;
+    height: 433px;
+    background-color: $color_bg_footer;
+    font-family: $font_main;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+.nav1 {
+    &__item, a {
+        color: white;
+        text-decoration: none;
+        list-style: none;
+        text-align: center;
+        background-color: rgb(237, 233, 214);
+    }
+}
+
+.nav2 {
+    &__item, a {
+        color: white;
+        text-decoration: none;
+        list-style: none;
+        text-align: center;
+        background-color: rgb(237, 226, 214);
+    }
+}
+
+.last_box {
+    color: white;
+    text-decoration: none;
+    //background-color:aliceblue;
+}
+ 
+
