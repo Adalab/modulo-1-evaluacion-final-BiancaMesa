@@ -1,7 +1,6 @@
 .section1 {
     width: 100%;
     min-width: 320px;
-    //height: 100vh;
     background-image: url(/images/cover.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -27,9 +26,6 @@
         letter-spacing: 1.19;
         text-align: center;
         width: 243.3px;
-        //padding-top: 15px;
-        //padding-bottom: 15px;
-
     }
 
 }
@@ -75,13 +71,11 @@
             width: 340.5px;
             margin-bottom: -49px;
         }
-    
     }
     
     .circle {
         margin-bottom: 60px;
     }
-    
 }
 
 
@@ -91,18 +85,18 @@
 // DESKTOP
 @media screen and (min-width: 1280px) {
     .section1 {
+        //background-position: 65%;
 
         &__title {
             width: 1146.7px;
             height: 207px;
-            margin: 459px 0px -10px -80px; 
+            margin: 400px 0px -10px -80px; 
         }
     
         &__subtitle {
             width: 566.8px;
             margin-bottom: 39px;
         }
-    
     }
     
     .circle {
@@ -113,6 +107,5 @@
             width: 20px;
             padding-top: 1px;
         }
-    }
-    
+    }   
 }

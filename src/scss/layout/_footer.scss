@@ -1,7 +1,6 @@
 .footer {
     width: 100%;
     min-width: 320px;
-    // height: 433px;
     background-color: $color_bg_footer;
     font-family: $font_main;
     font-size: 16px;
@@ -56,9 +55,6 @@
 @media screen and (min-width: 768px) {
 
     .footer {
-        // width: 100%;
-        // min-width: 320px;
-        // height: 433px;
         padding: 46px 69px 34px 159px;
         display: flex;
         flex-direction: row;
@@ -79,6 +75,7 @@
     //SOCIAL MEDIA COLUMN
     .nav2 {
         width: 159px; 
+        padding-left: 20px;
        
         &__item, a {
             text-align: start;   
@@ -98,6 +95,26 @@
     .box2 {
         order: 2;
     }
+}
 
 
+
+// DESKTOP
+@media screen and (min-width: 1280px) {
+
+    .footer {
+        padding: 30px 190px 34px 159px;
+    }
+    
+    //ZAPATILLAS COLUMN
+    .nav1 {
+        margin: 0 130px 0
+        200px;
+    }
+
+    //SOCIAL MEDIA COLUMN
+    .nav2 {
+        margin-left: 30px;
+    }
+    
 }

@@ -47,12 +47,10 @@
     }
 }
 
+
 // TABLET
 @media screen and (min-width: 768px) {
     .section2 {
-        // width: 100%;
-        // min-width: 320px;
-        //height: 350px;
         padding: 37.7px 7px 42px 37.1px; 
     
         &__container1 {
@@ -72,16 +70,30 @@
         }
     
         &__container2 {
-            // width: 160px;
-            // height: 45px; 
             margin-top: 21.2px;
-            
-            // &--text {
-            //     color: $color_main;
-            //     text-decoration: none;
-           
-            // }
         }
+    }
+
+}
+
+
+// DESKTOP
+@media screen and (min-width: 1280px) {
+    .section2 {
+        padding: 39px 168px 22px 160px; 
+    
+        &__container1 {
+    
+            &--item2 {
+                margin: 10px 0 30px 0;
+            }
+    
+            &--item3 {
+                margin-bottom: 20px;
+            }
+    
+        }
+    
     }
 
 }
