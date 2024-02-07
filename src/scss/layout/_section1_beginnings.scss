@@ -77,9 +77,9 @@
         }
     }
     
-    .circle {
-        margin-bottom: 60px;
-    }
+    // .circle {
+    //     margin-bottom: 100px;
+    // }
 }
 
 
@@ -89,7 +89,10 @@
 // DESKTOP
 @media screen and (min-width: 1280px) {
     .section1 {
-        //background-position: 65%;
+        //background-position: 65%
+        background-position: filled;
+        //background-size: filled;
+        bac
 
         &__title {
             width: 1146.7px;
@@ -105,7 +108,7 @@
     
     .circle {
     margin-top: -60px;
-    margin-bottom: 80px;
+    margin-bottom: 160px;
 
         &__link--arrow {
             width: 20px;
