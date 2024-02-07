@@ -139,78 +139,83 @@
 
 
 
+
 // TABLET
-.section3 {
-    // width: 100%;
-    // min-width: 320px;
-   // height: 100hv;
-    padding-top: 20px;
-}
-
-
-.container_title {
-    margin-bottom: 30px;
-
-    h3 {
-        font-size: 28px;
-        margin-top: 8qpx;
+@media screen and (min-width: 768px) {
+    .section3 {
+        // width: 100%;
+        // min-width: 320px;
+       // height: 100hv;
+        padding-top: 20px;
     }
-}
-
-// KIDS CONTAINER
-.container_main {
-    display: grid;
-    grid-template-rows: 124px;
-    grid-template-columns: 150px 140px 140px;
-    gap: 110px;
-    margin-bottom: 30px;
-
-    &__item1 {
-        grid-column: 1;
-        grid-row: 1;
-
-        h2 {
-            font-size: 18px;
-            width: 290px; 
-            margin-top: 5.9px;      
-        }    
-    }
-
-    &__item2 {
-        grid-row: 1;
-        grid-column: 2;
-
-        h2 {
-            font-size: 18px;
-            width: 290px;  
-            margin-top: 5.9px;
+    
+    
+    .container_title {
+        margin-bottom: 30px;
+    
+        h3 {
+            font-size: 28px;
+            margin-top: 8qpx;
         }
     }
-
-    &__item3 {
-        grid-row: 1;
-        grid-column: 3;
-
-        h2 {
-            font-size: 18px;
-            width: 290px;  
-            margin-top: 5.9px;
+    
+    // KIDS CONTAINER
+    .container_main {
+        display: grid;
+        grid-template-rows: 124px;
+        grid-template-columns: 150px 140px 140px;
+        gap: 110px;
+        margin-bottom: 30px;
+    
+        &__item1 {
+            grid-column: 1;
+            grid-row: 1;
+    
+            h2 {
+                font-size: 18px;
+                width: 290px; 
+                margin-top: 5.9px;      
+            }    
         }
-    }   
+    
+        &__item2 {
+            grid-row: 1;
+            grid-column: 2;
+    
+            h2 {
+                font-size: 18px;
+                width: 290px;  
+                margin-top: 5.9px;
+            }
+        }
+    
+        &__item3 {
+            grid-row: 1;
+            grid-column: 3;
+    
+            h2 {
+                font-size: 18px;
+                width: 290px;  
+                margin-top: 5.9px;
+            }
+        }   
+    }
+    
+    
+    // EMPEZAR AHORA BOTÓN
+    .container_button {
+        margin-top: 6px;
+        margin-bottom: -40px;
+    }
+    
+    // FLECHA
+    .circle {
+        position: relative; 
+        bottom: -70px; 
+    }
+    
 }
 
-
-// EMPEZAR AHORA BOTÓN
-.container_button {
-    margin-top: 6px;
-    margin-bottom: -40px;
-}
-
-// FLECHA
-.circle {
-    position: relative; 
-    bottom: -70px; 
-}
 
 
 
