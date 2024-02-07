@@ -1,7 +1,7 @@
 .footer {
     width: 100%;
     min-width: 320px;
-    height: 433px;
+    // height: 433px;
     background-color: $color_bg_footer;
     font-family: $font_main;
     font-size: 16px;
@@ -9,6 +9,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 60.5px 0 33.5px 0;
 }
 
 .nav1 {
@@ -50,3 +51,53 @@
 }
  
 
+
+// TABLET
+@media screen and (min-width: 768px) {
+
+    .footer {
+        // width: 100%;
+        // min-width: 320px;
+        // height: 433px;
+        padding: 46px 69px 34px 159px;
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+    }
+    
+    //ZAPATILLAS COLUMN
+    .nav1 {
+        width: 161px; 
+        margin: 0 30px 0
+        31px;
+    
+        &__item, a {
+            text-align: start;
+        }
+    }
+    
+    //SOCIAL MEDIA COLUMN
+    .nav2 {
+        width: 159px; 
+       
+        &__item, a {
+            text-align: start;   
+        }
+    }
+    
+    //COPY COLUMN
+    .copy_box {
+        width: 159px;
+        order:0;
+    }
+
+    .box1 {
+        order: 1;
+    }
+
+    .box2 {
+        order: 2;
+    }
+
+
+}
