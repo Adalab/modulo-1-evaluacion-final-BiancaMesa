@@ -1,7 +1,7 @@
 .section2 {
     width: 100%;
     min-width: 320px;
-    height: 60vh;
+    //height: 400px; //CAMBIAR MEDIDAS O UNIDAD!!***
     padding: 34px 7px 0px 13px; 
 
     &__container1 {
@@ -37,7 +37,7 @@
         border-radius: 22.5px;
         border: 2px solid $color_main;
         background-color: white;
-        margin-top: 42px;
+        margin: 42px 0px 42px 0;
         
         &--text {
             color: $color_main;
@@ -45,4 +45,43 @@
        
         }
     }
+}
+
+// TABLET
+@media screen and (min-width: 768px) {
+    .section2 {
+        // width: 100%;
+        // min-width: 320px;
+        //height: 350px;
+        padding: 37.7px 7px 42px 37.1px; 
+    
+        &__container1 {
+            &--item1 {
+                font-size: 16px;
+            }
+    
+            &--item2 {
+                font-size: 32px;
+                margin: 10px 0 20px 0;
+            }
+    
+            &--item3 {
+                font-size: 20px;
+            }
+    
+        }
+    
+        &__container2 {
+            // width: 160px;
+            // height: 45px; 
+            margin-top: 21.2px;
+            
+            // &--text {
+            //     color: $color_main;
+            //     text-decoration: none;
+           
+            // }
+        }
+    }
+
 }
