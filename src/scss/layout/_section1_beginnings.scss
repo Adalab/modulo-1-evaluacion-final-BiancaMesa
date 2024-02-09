@@ -48,8 +48,10 @@
     justify-content: center;
     align-items: center;
     border: 0px solid rgb(255, 255, 255);
-    margin-top: 15px;
-    //margin-bottom: 100px;
+    //margin-top: 15px;
+     //margin-bottom: 100px;
+    transform: translateY(15px);
+   
    
 
     &__arrow {
@@ -63,7 +65,7 @@
 // TABLET
 @media screen and (min-width: 768px) {
     .section1 {
-        background-position: 65%;
+        //background-position: 65%;
         //padding-top: 419px;
     
         &__title {
@@ -86,13 +88,12 @@
     width: 45px;
     height: 45px; 
     border-radius: 50%;
-    margin-top: 80px;
+    //margin-top: 80px;
     margin-bottom: 50px;
-   
+    transform: translateY(70px);
 
-    &__link--arrow {
+    &__arrow {
         width: 23px;
-        padding-top: 1px;
     }
 }
 }
@@ -105,27 +106,27 @@
 @media screen and (min-width: 1280px) {
     .section1 {
         //background-position: 65%
-        background-position: filled;
+        //background-position: filled;
         //background-size: filled;
-        bac
 
         &__title {
             width: 1146.7px;
             height: 207px;
-            margin: 400px 0px -10px -80px; 
+            //margin: 400px 0px -10px -80px; 
         }
     
         &__subtitle {
             width: 566.8px;
-            margin-bottom: 39px;
+            //margin-bottom: 39px;
         }
     }
     
     .circle1 {
-    margin-top: -60px;
-    margin-bottom: 160px;
+    //margin-top: -60px;
+    margin-bottom: 100px;
+    t//ransform: translateY(80px);
 
-        &__link--arrow {
+        &__-arrow {
             width: 20px;
             padding-top: 1px;
         }
