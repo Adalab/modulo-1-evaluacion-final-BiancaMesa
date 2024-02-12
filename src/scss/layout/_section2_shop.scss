@@ -29,6 +29,7 @@
 
     }
 
+    //Botón de comprar
     &__container2 {
         font-family: $font_main;
         font-size: 20px;
@@ -38,14 +39,22 @@
         border: 2px solid $color_main;
         background-color: white;
         margin: 42px 0px 42px 0;
+
+
         
         &--text {
             color: $color_main;
             text-decoration: none;
-       
+
+            //Hover botón comprar
+            &:hover {
+                color: lightgrey;
+                cursor: pointer;
+            }
         }
     }
 }
+
 
 
 // TABLET
